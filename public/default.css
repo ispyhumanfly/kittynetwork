@@ -1,0 +1,73 @@
+@import url("http://fonts.googleapis.com/css?family=Molle:400italic");
+@import url("http://fonts.googleapis.com/css?family=Electrolize");
+@import url("http://fonts.googleapis.com/css?family=Denk+One");
+@import url("http://fonts.googleapis.com/css?family=Clicker+Script");
+
+
+html { height: 100%; margin: 0; }
+body { height: 100%; margin: 0; background-color: #222; }
+            
+a {
+    
+    font-family: 'Electrolize', sans-serif;
+    color: #FF00FF;
+}
+
+#content {
+    
+    font-family: 'Electrolize', sans-serif;
+    color: #FF00FF;
+    text-align: center;
+}
+
+#content img {
+    
+    height: 400px;
+    width: auto;
+    border: 10px solid white;
+    
+     border-radius: 15px 15px 5px 5px;
+    -moz-border-radius: 15px 15px 5px 5px;
+    -webkit-border-radius: 15px 15px 5px 5px;
+}
+
+#content h1 {
+    
+    font-size: 35pt;
+}
+
+#content .title {
+    
+    font-family: 'Molle', cursive;
+    font-size: 50pt;
+    margin-bottom: 0;
+}
+
+#content .slogan {
+    
+    font-size: 15pt;
+    max-width: 500px;
+    margin: 25px auto auto auto;
+    color: white;
+}
+
+#content .copyright {
+    
+    font-family: 'Clicker Script', cursive;
+    font-size: 25pt;
+    color: white;
+}
+
+#disqus {
+    
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    
+    border-radius: 15px 15px 5px 5px;
+    -moz-border-radius: 15px 15px 5px 5px;
+    -webkit-border-radius: 15px 15px 5px 5px;
+    
+}

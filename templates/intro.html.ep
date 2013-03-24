@@ -1,0 +1,32 @@
+<script>//<![CDATA[
+	
+    require(["dojo/_base/fx",
+             "dojo/dom-style",
+             "dojo/query",
+             "dojo/domReady!"],
+            
+            function(fx, style, query) {
+        
+                image = query("#content>img")[0];
+                style.set(image, "opacity", "0");
+        
+                fx.fadeIn({
+            
+                    node: image,
+                    duration: 5000,
+                    delay: 3000
+        
+                }).play();
+            });
+    
+// ]]></script>
+
+<img src="http://fc06.deviantart.net/fs71/f/2012/195/6/3/63d7b40d1746ed256195a415228b69a8-d576vtu.jpg" title="Kitty Network! Kitty of the day!" />
+
+<h1 class="slogan">Meow meow meow, welcome to kitty network, to surf your online kitties.</h1>
+
+<script>//<![CDATA[
+
+    setTimeout("window.location='/home'", 10000);
+
+// ]]></script>

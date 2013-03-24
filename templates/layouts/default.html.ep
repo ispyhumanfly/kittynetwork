@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        
+        <title>Kitty Network!</title>
+
+        <!--<meta name="description" content="Computer, cellphone, and mobile device repair." />
+        <meta name="keywords" content="computer repair android ios apple iphone ipad tablet nexus samsung droid htc pc osx mac hardware software" />
+        <meta name="author" content="Thoughtpivot, LLC" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="3 days" />
+        -->
+	<link href='/default.css' rel='stylesheet' type='text/css'>
+        <link href='http://fc08.deviantart.net/fs27/f/2008/108/8/e/another_avatar_by_i_luv_kyo_the_kitty.gif' rel='icon' type='image/png'>
+            
+        <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojo/dojo.js" data-dojo-config="async: true"></script>
+
+        <script type="text/javascript">//<![CDATA[
+
+            require(["dojo/_base/fx",
+                    "dojo/dom",
+                    "dojo/dom-style",
+                    "dojo/query",
+                    "dojo/_base/array",
+                    "dojo/domReady!"],
+                    
+                    function(fx, dom, style, query, array) {
+       
+                        content = query("#content")[0];
+                        style.set(content, "opacity", "0");
+
+                        fx.fadeIn({
+                            
+                            node: content,
+                            duration: 3000,
+                            delay: 1000
+                        
+                    }).play();
+                        
+                    array.forEach(query("#content>h1"),
+                                function(element) {
+                                    style.set(element, "opacity", "0");
+                                });
+              
+                    var d_offset = 1000;
+                      
+                    array.forEach(query("#content>h1"),
+                                function(element) {
+                                              
+                                    d_offset = d_offset + 500;
+                                      
+                                    fx.fadeIn({
+                                          
+                                        node: element,
+                                        duration: d_offset,
+                                        delay: 3000 + d_offset
+                                          
+                                    }).play();
+                                });                
+                   });
+
+        // ]]></script>
+        
+        %### Random backgrounds.
+	% my @backgrounds;
+
+	% push @backgrounds, "background-image: url('http://fc00.deviantart.net/fs71/i/2010/160/6/e/sleepy_kitty_is_sleepy_by_henrikronn.jpg');";
+	% push @backgrounds, "background-image: url('http://fc04.deviantart.net/fs70/i/2010/182/c/3/Kitty_by_MoxMonica.jpg');";
+	% push @backgrounds, "background-image: url('http://fc00.deviantart.net/fs71/i/2013/007/e/b/kitty_kiss_by_reasondinn-d5qqq8i.jpg');";
+
+	<style type="text/css">
+
+	    #content {
+
+		%== $backgrounds[rand(scalar @backgrounds)];
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+                background-color: #222;
+                height: 100%;
+	    }
+
+	</style>
+    
+    </head>
+    
+    <body>
+    	
+        <div id="content">
+            
+            <br />
+            
+            <h1 class="title">Kitty Network!</h1>
+            
+            %= content
+
+            <h1 class="copyright">Created by Summer Dreachslin</h1>
+
+        </div>        
+    </body>
+</html>

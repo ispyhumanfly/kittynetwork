@@ -1,0 +1,19 @@
+#!/usr/bin/env perl
+
+use Mojolicious::Lite;
+
+get '/' => sub {
+  
+    my $self = shift;  
+    $self->render('intro', layout => 'default');
+
+} => 'intro';
+
+get '/home' => sub {
+  
+    my $self = shift;  
+    $self->render('home', layout => 'default');
+
+} => 'home';
+
+app->start;
