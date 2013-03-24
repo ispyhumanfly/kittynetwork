@@ -7,12 +7,12 @@
         
         <title>Kitty Network!</title>
 
-        <!--<meta name="description" content="Computer, cellphone, and mobile device repair." />
+        <meta name="description" content="Computer, cellphone, and mobile device repair." />
         <meta name="keywords" content="computer repair android ios apple iphone ipad tablet nexus samsung droid htc pc osx mac hardware software" />
         <meta name="author" content="Thoughtpivot, LLC" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="3 days" />
-        -->
+        
 	<link href='/default.css' rel='stylesheet' type='text/css'>
         <link href='http://fc08.deviantart.net/fs27/f/2008/108/8/e/another_avatar_by_i_luv_kyo_the_kitty.gif' rel='icon' type='image/png'>
             
@@ -90,14 +90,11 @@
     <body>
     	
         <div id="content">
-            
-            <br />
-            
-            <h1 class="title">Kitty Network!</h1>
-            
+                        
             %= content
 
-            <h1 class="copyright">Created by Summer Dreachslin</h1>
+            <h1 class="signature">Created by Summer Dreachslin</h1>
+            <h1 class="copyright">2012 - 2013 &copy; Ray&apos;s Tech Service, LLC. Artwork & Deviations from deviantart.com.</h1>
 
         </div>        
     </body>

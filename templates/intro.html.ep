@@ -21,12 +21,14 @@
     
 // ]]></script>
 
+<h1 class="title">Welcome to Kitty Network!</h1>
+
 <img src="http://fc06.deviantart.net/fs71/f/2012/195/6/3/63d7b40d1746ed256195a415228b69a8-d576vtu.jpg" title="Kitty Network! Kitty of the day!" />
 
 <h1 class="slogan">Meow meow meow, welcome to kitty network, to surf your online kitties.</h1>
 
 <script>//<![CDATA[
 
-    setTimeout("window.location='/home'", 10000);
+    setTimeout("window.location='/comments'", 10000);
 
 // ]]></script>

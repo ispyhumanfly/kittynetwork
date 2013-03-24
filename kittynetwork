@@ -9,12 +9,12 @@ get '/' => sub {
 
 } => 'intro';
 
-get '/home' => sub {
+get '/comments' => sub {
   
     my $self = shift;  
-    $self->render('home', layout => 'default');
+    $self->render('comments', layout => 'default');
 
-} => 'home';
+} => 'comments';
 
 app->config(hypnotoad => {proxy => 1, listen => ['http://*:2099']});
 app->start;

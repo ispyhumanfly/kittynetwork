@@ -1,7 +1,7 @@
-@import url("http://fonts.googleapis.com/css?family=Molle:400italic");
-@import url("http://fonts.googleapis.com/css?family=Electrolize");
-@import url("http://fonts.googleapis.com/css?family=Denk+One");
-@import url("http://fonts.googleapis.com/css?family=Clicker+Script");
+
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(http://fonts.googleapis.com/css?family=Henny+Penny);
+@import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans);
 
 
 html { height: 100%; margin: 0; }
@@ -9,13 +9,13 @@ body { height: 100%; margin: 0; background-color: #222; }
             
 a {
     
-    font-family: 'Electrolize', sans-serif;
+font-family: 'Bubblegum Sans', cursive;
     color: #FF00FF;
 }
 
 #content {
     
-    font-family: 'Electrolize', sans-serif;
+font-family: 'Bubblegum Sans', cursive;
     color: #FF00FF;
     text-align: center;
 }
@@ -38,8 +38,11 @@ a {
 
 #content .title {
     
-    font-family: 'Molle', cursive;
-    font-size: 50pt;
+/*    font-family: 'Molle', cursive;
+*/
+font-family: 'Henny Penny', cursive;
+
+font-size: 50pt;
     margin-bottom: 0;
 }
 
@@ -51,10 +54,17 @@ a {
     color: white;
 }
 
-#content .copyright {
+#content .signature {
     
     font-family: 'Clicker Script', cursive;
     font-size: 25pt;
+    color: white;
+}
+
+#content .copyright {
+    
+    font-family: 'Clicker Script', cursive;
+    font-size: 15pt;
     color: white;
 }
 
