@@ -16,4 +16,5 @@ get '/home' => sub {
 
 } => 'home';
 
+app->config(hypnotoad => {proxy => 1, listen => ['http://*:2099']});
 app->start;
