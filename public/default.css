@@ -38,16 +38,22 @@ font-family: 'Bubblegum Sans', cursive;
 
 #content .title {
     
-/*    font-family: 'Molle', cursive;
-*/
-font-family: 'Henny Penny', cursive;
+    font-family: 'Henny Penny', cursive;
 
-margin-top: 0;
-font-size: 50pt;
+    margin-top: 0;
+    font-size: 50pt;
     margin-bottom: 0;
 }
 
 #content .slogan {
+    
+    font-size: 15pt;
+    max-width: 500px;
+    margin: -8px auto 5px auto;
+    color: white;
+}
+
+#content .kittyfacts {
     
     font-size: 15pt;
     max-width: 500px;

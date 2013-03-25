@@ -1,3 +1,13 @@
+%### Random Kitty facts.
+% my @kittyfacts;
+
+% push @kittyfacts, "The nose pad of a cat is ridged in a pattern that is unique, just like the fingerprint of a human.";
+% push @kittyfacts, "There are more than 500 million domestic cats in the world, with 33 different breeds.";
+% push @kittyfacts, "The American cat population reached nearly 68 million in 1996.  American Demographics magazine estimates that's about 200 million kitty yawns per hour and a whopping 425 million catnaps each day!";
+% push @kittyfacts, "A cat's heart beats twice as fast as a human heart, at 110 to 140 beats per minute.";
+% push @kittyfacts, "25% of cat owners blow dry their cats hair after a bath.";
+% push @kittyfacts, "Calico cats are almost always female.";
+
 <script>//<![CDATA[
 	
     require(["dojo/_base/fx",
@@ -23,6 +33,8 @@
 
 <h1 class="title">Kitty Network Comments!</h1>
 
+<h1 class="slogan">Meow meow meow, leave us your comments on the kitty of the day!</h1>
+
 <div id="disqus">
     
     <div id="disqus_thread"></div>
@@ -42,4 +54,4 @@
     
 </div>
 
-<h1 class="slogan">Meow meow meow, leave us your comments on the kitty of the day!</h1>
+<h1 class="kittyfacts"><%== $kittyfacts[rand(scalar @kittyfacts)] %></h1>
